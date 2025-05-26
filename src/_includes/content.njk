@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/_includes/css/style.css" />
+</head>
+<body>
+  {% include "header.njk" %}
+  <main class="container">
+    <a class="back" href="/">&#11071 Back</a>
+    <div class="box violet-box">
+      <div class="post">
+        {{ content | safe }}
+      </div>
+    </div>
+    <a class="back" href="/">&#11071 Back</a>
+  </main>
+
+  {% include "footer.njk" %}
+</body>
+</html>
