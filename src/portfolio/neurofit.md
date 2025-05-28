@@ -5,7 +5,7 @@ date: 2030-04-09
 tags: portfolio
 thumbnail: "/images/portfolio/icons/nf_icon.png"
 tech: "Unity/C#"
-shipped: 2022
+shipped: 2021
 role: "Developer"
 platform: "iOS/Android"
 url: "https://www.gpb.org/education/gasha-go-world"

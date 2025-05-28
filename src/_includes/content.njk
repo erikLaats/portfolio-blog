@@ -9,13 +9,13 @@
 <body>
   {% include "header.njk" %}
   <main class="container">
-    <a class="back" href="/">&#11071 Back</a>
+    {% include "backbutton.njk" %}
     <div class="box violet-box">
       <div class="post">
         {{ content | safe }}
       </div>
     </div>
-    <a class="back" href="/">&#11071 Back</a>
+    {% include "backbutton.njk" %}
   </main>
 
   {% include "footer.njk" %}

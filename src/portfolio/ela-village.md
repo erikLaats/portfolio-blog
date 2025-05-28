@@ -4,12 +4,12 @@ client: "K12 Education"
 date: 2029-04-09
 tags: portfolio
 thumbnail: "/images/portfolio/icons/elavillage.png"
-tech: "TypeScript"
+tech: "React/TypeScript"
 shipped: 2023
 role: "Lead Developer"
 platform: "Web"
-url: "https://www.gpb.org/education/gasha-go-world"
-workedOn: "June 2022 - January 2024"
+url: "https://www.fablevisionstudios.com/ela-village"
+workedOn: "June 2022 - January 2023"
 splash: "/images/portfolio/elavillage_1.png"
 
 ---

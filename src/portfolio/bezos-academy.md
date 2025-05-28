@@ -4,7 +4,7 @@ client: "Bezos Academy"
 date: 2025-04-09
 tags: portfolio
 thumbnail: "/images/portfolio/icons/bella_icon.png"
-tech: "TypeScript"
+tech: "React/TypeScript"
 role: "Lead Developer"
 shipped: 2025
 platform: "Web"

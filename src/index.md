@@ -36,8 +36,8 @@ layout: layout.njk
 		          <img class="thumbnail" src="{{ post.data.thumbnail }}" alt="{{ post.data.title }} thumbnail" />
 		        </td>
 		        <td width="20%"><a href="{{ post.url }}">{{ post.data.title }}</a></td>
-		        <td width="28%">{{ post.data.role }}</td> <!-- Optional -->
-		        <td width="25%">{{ post.data.tech }}</td>
+		        <td width="26%">{{ post.data.role }}</td> <!-- Optional -->
+		        <td width="28%">{{ post.data.tech }}</td>
 		        <!-- <td><a href="{{ post.url }}">{{ post.url }}</a></td> -->
 		        <td>{{ post.data.shipped }}</td> <!-- Optional -->
 		      </tr>
@@ -47,7 +47,7 @@ layout: layout.njk
 		</div> 
 	</div>
 	<div class="right-column">
-	    <div class="box violet-box">
+		<div class="box pink-box">
 			<h3>Links</h3>
 			<ul>
 				<li><a href="https://github.com/erikLaats" target="_blank">GitHub</a>
@@ -56,19 +56,26 @@ layout: layout.njk
 				<li><a href="https://leetcode.com/u/erika_bonchiko/" target="_blank">LeetCode</a>
 			</ul>
 		</div>
-		<div class="box pink-box">
+		<div class="box violet-box">
+	    	<h3>\<\/\></h3>
+	    	<ul>
+				<li>TypeScript</li>
+				<li>React, Vue</li>
+				<li>Craft CMS</li>
+				<li>Unity C#</li>
+				<li>HTML/CSS/JS</li>
+				<p>Working on... </p>
+				<li>Django</li>
+				<li>Python</li>
+				<li>Lua</li>
+			</ul>
+		</div>
+		<div class="box green-box">
 			<h3>Side Projects</h3>
 			<ul>
 				<li><a href="https://kamehouseweekly.netlify.app/" target="_blank">Local Smash Tournament Result Tracker</a>
 			</ul>
 		</div>
-		<div class="box green-box">
-	    	<h3>Blog</h3>
-	    	<ul>
-			{% for post in collections.posts %}
-				<li>[{{ post.data.title }}]({{ post.url}})</li>
-			{% endfor %}
-			</ul>
-		</div>
+
 	</div>
 </div>

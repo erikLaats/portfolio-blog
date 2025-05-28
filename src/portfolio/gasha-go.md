@@ -15,8 +15,8 @@ splash: "/images/portfolio/gashago_1.png"
 
 {% include "postMeta.njk" %}
 
-Gasha GO is a collection of computer science games and animations designed to foster programmatic thinking and problem solving. It is built with TypeScript and Phaser 3, and uses Capacitor to create and manage native app versions of the game. All of the activities are also directly accessible as standalone experiences through GPS's game website.
+Gasha GO is a collection of computer science games and animations designed to foster programmatic thinking and problem solving. It is built with TypeScript and Phaser 3, and uses Capacitor to create and manage native app versions of the game.
 
 <img class="portfolio-img" src="/images/portfolio/gashago_2.png" />
 
-Gasha GO is keyboard accessible and available to play on the web on both desktop and mobile. It is currently available for free in both app stores and online.
+Gasha GO is keyboard accessible and available to play on the web on both desktop and mobile. It is currently available for free in the <a>App Store and Google Play Store.</a>

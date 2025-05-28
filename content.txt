@@ -1,35 +1,13 @@
 Content
 
-Portfolio: 
-Big
-- BELLA (Bezos Academy) (2025)
-	- Lead developer
-	- Typescript/React
-- Gasha GO! (2024)
-	- Lead developer
-	- Typescript
-	- App
-- Neurofit (2023)
-	- Lead developer
-	- Unity/C#
-	- App
-- ELA Village (2024)
-	- Typescript/React
-- Keenville (2021)
-
-Small
-- UCAR
-- 
 
 
 TODO.txt
 
-- Color final touches on home screen
-- Get images and thumbs for projects ^^
 - Finalize portfolio page layout
 
-- Turn micro blog into micro blog (daily tech journal)
-- 
+ Turn micro blog into micro blog (daily tech journal)
+
 
 
  {% set colors = ["#d0e9f2",
