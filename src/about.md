@@ -12,7 +12,7 @@ layout: layout.njk
 		</p>
 	</div>
 </div> -->
-{% include "backbutton.njk" %}
+{% include "backButton.njk" %}
 <div class="about-grid">
 	<div class="box about-card yellow-box">
 		<img src="../images/about/bc_logo.png" />

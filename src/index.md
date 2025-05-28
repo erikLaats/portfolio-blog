@@ -64,10 +64,9 @@ layout: layout.njk
 				<li>Craft CMS</li>
 				<li>Unity C#</li>
 				<li>HTML/CSS/JS</li>
-				<p>Working on... </p>
+				<p>Learning more about: </p>
 				<li>Django</li>
 				<li>Python</li>
-				<li>Lua</li>
 			</ul>
 		</div>
 		<div class="box green-box">
