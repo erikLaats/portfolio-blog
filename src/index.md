@@ -67,6 +67,7 @@ layout: layout.njk
 				<p>Learning more about: </p>
 				<li>Django</li>
 				<li>Python</li>
+				<li>Laravel</li>
 			</ul>
 		</div>
 		<div class="box green-box">
