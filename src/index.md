@@ -3,9 +3,6 @@ title: "Home"
 layout: layout.njk
 ---
 
-
-
-
 <div class="columns">
   	<div class="left-column">
   		<div class="yellow-box box">
@@ -19,31 +16,33 @@ layout: layout.njk
   		</div>
 	    <div class="box blue-box">
 		  <h3>Recent Work</h3>
-		  <table>
-		    <thead>
-		      <tr>
-		        <th></th>
-		        <th>Title</th>
-		        <th>Role</th>
-		        <th>&lt;/&gt;</th>
-		        <th>Year</th>
-		      </tr>
-		    </thead>
-		    <tbody>
-		      {% for post in collections.portfolio %}
-		      <tr>
-		        <td width="11%">
-		          <img class="thumbnail" src="{{ post.data.thumbnail }}" alt="{{ post.data.title }} thumbnail" />
-		        </td>
-		        <td width="20%"><a href="{{ post.url }}">{{ post.data.title }}</a></td>
-		        <td width="26%">{{ post.data.role }}</td> <!-- Optional -->
-		        <td width="28%">{{ post.data.tech }}</td>
-		        <!-- <td><a href="{{ post.url }}">{{ post.url }}</a></td> -->
-		        <td>{{ post.data.shipped }}</td> <!-- Optional -->
-		      </tr>
-		      {% endfor %}
-		    </tbody>
-		  </table>
+		  <div class="table-wrapper">
+			<table>
+				<thead>
+				<tr>
+					<th></th>
+					<th>Title</th>
+					<th>Role</th>
+					<th>&lt;/&gt;</th>
+					<th>Year</th>
+				</tr>
+				</thead>
+				<tbody>
+				{% for post in collections.portfolio %}
+				<tr>
+					<td width="11%">
+					<img class="thumbnail" src="{{ post.data.thumbnail }}" alt="{{ post.data.title }} thumbnail" />
+					</td>
+					<td width="20%"><a href="{{ post.url }}">{{ post.data.title }}</a></td>
+					<td width="26%">{{ post.data.role }}</td> <!-- Optional -->
+					<td width="28%">{{ post.data.tech }}</td>
+					<!-- <td><a href="{{ post.url }}">{{ post.url }}</a></td> -->
+					<td>{{ post.data.shipped }}</td> <!-- Optional -->
+				</tr>
+				{% endfor %}
+				</tbody>
+			</table>
+		  </div>
 		</div> 
 	</div>
 	<div class="right-column">
@@ -62,16 +61,17 @@ layout: layout.njk
 				<li>TypeScript</li>
 				<li>React, Vue</li>
 				<li>Craft CMS</li>
-				<li>Unity C#</li>
+				<li>Unity 3D</li>
+				<li>C#/.NET</li>
 				<li>HTML/CSS/JS</li>
-				<p>Learning more about: </p>
 				<li>Django</li>
+				<li>Lua</li>
 				<li>Python</li>
-				<li>Laravel</li>
+				<li>PHP</li>
 			</ul>
 		</div>
 		<div class="box green-box">
-			<h3>Side Projects</h3>
+			<h3>Featured Side Project</h3>
 			<ul>
 				<li><a href="https://kamehouseweekly.netlify.app/" target="_blank">Local Smash Tournament Result Tracker</a>
 			</ul>

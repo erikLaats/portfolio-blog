@@ -14,6 +14,13 @@ layout: layout.njk
 </div> -->
 {% include "backButton.njk" %}
 <div class="about-grid">
+	<div class="box about-card green-box">
+		<img src="../images/about/syrg.png" />
+		<h3>Design</h3>
+		<p>
+			I have a background in UI/UX design, graphic design, and illustration. I was an early designer at <a href="https://hourwork.sprockets.ai" target="_blank">HourWork (pictured above),</a> which was recently acquired.
+		</p>
+	</div>
 	<div class="box about-card yellow-box">
 		<img src="../images/about/bc_logo.png" />
 		<h3>Bonchiko Cards</h3>
@@ -26,13 +33,6 @@ layout: layout.njk
 		<h3>Melee</h3>
 		<p>
 			I am currently ranked 8th on the <a href="https://www.ssbwiki.com/Georgia_Power_Rankings" target="_blank">Georgia Melee Power Rankings.</a> I recently put together a <a href="https://www.youtube.com/watch?v=ePzsk3JO3rU" target="_blank">highlight reel</a> and I maintain a local <a href="https://kamehouseweekly.netlify.app/" target="_blank">ranking site.</a>
-		</p>
-	</div>
-	<div class="box about-card green-box">
-		<img src="../images/about/syrg.png" />
-		<h3>Design</h3>
-		<p>
-			I have a background in UI/UX design, graphic design, and illustration.
 		</p>
 	</div>
 	<div class="box about-card blue-box">

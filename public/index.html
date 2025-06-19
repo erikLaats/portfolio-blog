@@ -7,11 +7,17 @@
   <link rel="stylesheet" href="/_includes/css/style.css" />
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <script src="/_includes/js/main.js"></script>
 </head>
 <body>
   <header>
+  <div class="sticky-header">
+    <a href="" id="copy-email" onclick="navigator.clipboard.writeText('elaats@gmail.com'); return false;">Copy Email</a>
+    &nbsp;|&nbsp;
+    <a href="/assets/Erik_Laats_Resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+  </div>
   <div class="flex-header">
     <h1 class="lightgray-text">Erik Laats</h1>
   </div>
@@ -31,17 +37,18 @@
   		</div>
 	    <div class="box blue-box">
 		  <h3>Recent Work</h3>
-		  <table>
-		    <thead>
-		      <tr>
-		        <th></th>
-		        <th>Title</th>
-		        <th>Role</th>
-		        <th>&lt;/&gt;</th>
-		        <th>Year</th>
-		      </tr>
-		    </thead>
-		    <tbody>
+		  <div class="table-wrapper">
+			<table>
+				<thead>
+				<tr>
+					<th></th>
+					<th>Title</th>
+					<th>Role</th>
+					<th>&lt;/&gt;</th>
+					<th>Year</th>
+				</tr>
+				</thead>
+				<tbody>
 <p><tr>
 <td width="11%">
 <img class="thumbnail" src="/images/portfolio/icons/bella_icon.png" alt="BELLA thumbnail" />
@@ -106,6 +113,7 @@
 </table>
 </div>
 </div>
+</div>
 <div class="right-column">
 <div class="box pink-box">
 <h3>Links</h3>
@@ -122,16 +130,17 @@
 <li>TypeScript</li>
 <li>React, Vue</li>
 <li>Craft CMS</li>
-<li>Unity C#</li>
+<li>Unity 3D</li>
+<li>C#/.NET</li>
 <li>HTML/CSS/JS</li>
-<p>Learning more about: </p>
 <li>Django</li>
+<li>Lua</li>
 <li>Python</li>
-<li>Laravel</li>
+<li>PHP</li>
 </ul>
 </div>
 <div class="box green-box">
-<h3>Side Projects</h3>
+<h3>Featured Side Project</h3>
 <ul>
 <li><a href="https://kamehouseweekly.netlify.app/" target="_blank">Local Smash Tournament Result Tracker</a>
 </ul>
@@ -143,7 +152,7 @@
   
 <footer>
   <div>
-    <p>&copy; 2025 Erik Laats</p>
+    <p class="lightgray-text">&copy; 2025 Erik Laats</p>
   </div>
 </footer>
 
