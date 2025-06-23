@@ -16,11 +16,13 @@ splash: "/images/portfolio/elavillage_1.png"
 
 {% include "postMeta.njk" %}
 
-ELA Village is a classic RPG-style adventure game, where the player can complete quests, play minigames, and customize their castle. The world is filled with interesting characters for the player to meet and interact with using a custom dialogue system. Upon starting a quest, players follow a series of reading comprehension clues to determine the next step and progress the story.
+ELA Village is a RPG-style educational game built to engage students in reading comprehension through exploration, quests, and interactive storytelling. The world is filled with characters with tasks and requests the player may fulfill. While navigating the village, players can collect coins to unlock upgrades to their castle and decorate their lawn.
+
+The app is developed in TypeScript with React as a wrapper and state manager, and uses Phaser 3 to render the overworld, animations, and gameplay logic inside an embedded canvas. A custom dialogue and quest system powers branching conversations, tracks quest progress, and ties in directly with reading-based objectives. In order to meet accessibility requirements, some interactive elements are tracked with HTML elements to expose their functionality and behavior to screen readers and browsers.
 
 <!-- ![image info](../../images/portfolio/elavillage_2.png) -->
 <img class="portfolio-img" src="/images/portfolio/elavillage_2.png" />
 
-It is a React project written in TypeScript, and the gameplay and animations are rendered by Phaser 3. It is connected to 4 unique minigames, which are embedded within the React wrapper via iframes. Player results within the minigames are communicated back to the main game in order to reward the player with ELA Village currency. 
+One of the biggest challenges was embedding 4 preexisting minigames created by the client. The application uses React routes to display the minigames in separate iframes and stores the current state of the main game in storage and memory. Once players are done playing, messages are exchanged between layers to reward the player with coins.
 
 The game is playable in browser on both desktop and mobile, and is accessible via screen reader and keyboard.

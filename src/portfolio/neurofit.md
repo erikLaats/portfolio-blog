@@ -15,8 +15,10 @@ splash: "/images/portfolio/neurofit_1.png"
 
 {% include "postMeta.njk" %}
 
-Neurofit is a native app built with Unity and C#. It was designed to support a health and wellness study by Drexel University, where participants could earn sci-fi themed rewards for completing fitness activities, such as exercise or healthy eating. It leverages the Fitbit API and subscription system to alert the app of player fitness participation in real time.
+Neurofit is a native mobile app developed in Unity using C#, created to support a health and wellness research study by Drexel University's WELL Center. The app encourages participants to engage in daily fitness and nutrition goals by offering sci-fi-themed rewards and progression systems tied to real-world activity.
 
-Players are grouped into teams and assigned monthly challenges. Winning teams could level up, earn badges, and unlock parts for their customizable spaceship.
+Using the Fitbit API and subscription-based notifications, Neurofit receives real-time updates on participant activity such as exercise, steps, and sleep. Players are grouped into teams and assigned monthly challenges—successful teams level up, earn badges, and unlock customizable components for their spaceship avatar. When certain thresholds are passed for physical activity or weight, OneSignal is used to send notifications to players who aren't curren't using the app to let them know about their achievement.
 
-The app features a minigame similar to Temple Run, where players fly their ship through an asteroid field.
+We also designed and built a Craft CMS implementation to allow the researchers to manage their participants and view and export data. It also made it possible for their team to manually tweak gameplay parameters to ensure the study goes smoothly.
+
+The app also features a fast-paced Temple Run-style minigame, where players pilot their spaceship through an asteroid field, combining physical progress with interactive play.

@@ -24,10 +24,15 @@ main {
   }
 }
 
+.explosion {
+  position: relative;
+  top: -100px;
+  pointer-events: none;
+}
 .depart {
   animation: depart-left 0.3s forwards;
-    animation-play-state: running;
-    animation-timing-function: ease-in;
+  animation-play-state: running;
+  animation-timing-function: ease-in;
 }
 .lightgray-text {
   color: lightgray;
@@ -53,6 +58,8 @@ h1.lightgray-text {
   z-index: 1000;
   padding-left: 1rem;
   margin: 0px;
+  overflow: hidden;
+  height: 25px;
 }
 
 .flex-header {

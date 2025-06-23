@@ -59,10 +59,10 @@ layout: layout.njk
 	    	<h3>\<\/\></h3>
 	    	<ul>
 				<li>TypeScript</li>
-				<li>React, Vue</li>
+				<li>React</li>
 				<li>Craft CMS</li>
-				<li>Unity 3D</li>
-				<li>C#/.NET</li>
+				<li>Unity</li>
+				<li>C#</li>
 				<li>HTML/CSS/JS</li>
 				<li>Django</li>
 				<li>Lua</li>

@@ -15,10 +15,10 @@ splash: "/images/portfolio/textbook_1.png"
 
 {% include "postMeta.njk" %}
 
-The Georgia Studies Course is an online digital tool used in 8th grade Georgia History classrooms. It uses Craft CMS to maintain and organize the course content, which is delivered with GraphQL. The front end is built with React. We designed content matrices in Craft to allow easy updates to all kinds of course materials, including worksheets, videos, interactives, and text.
+The Georgia Studies Course is an online interactive textbook used in 8th grade Georgia History classrooms across the state. Built on Craft CMS with a GraphQL content API, the course content includes worksheets, videos, interactives, and rich text—all delivered through the React front end.
 
 <img class="portfolio-img" src="/images/portfolio/textbook_2.png" />
 
-Searching allows students to locate terms used within the text, while favoriting enables teachers to easily return to specific pages in classroom settings. Each chapter features a quiz, also managed within Craft, that records student scores for review.
+To support easy maintenance and editorial flexibility, we developed custom content matrices within Craft, allowing the non-technical site administrators to update the course materials and add new sections as necessary. We also designed a tailored search experience that enables students to locate terms and topics within the text, while teachers can favorite pages for quick access in a classroom setting. Each chapter includes a quiz, managed via Craft, with built-in score tracking for review.
 
-In addition to developing the full stack for the textbook, I also was the primary UX designer and wireframed the layout of the entire site.
+In addition to developing the full-stack architecture and overseeing other developers on the project, I served as the primary UX designer, wireframing and prototyping the layout for the entire application.
