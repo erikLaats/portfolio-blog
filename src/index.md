@@ -2,7 +2,6 @@
 title: "Home"
 layout: layout.njk
 ---
-
 <div class="columns">
   	<div class="left-column">
   		<div class="yellow-box box">

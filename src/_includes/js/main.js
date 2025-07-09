@@ -7,19 +7,12 @@ function setup() {
             event.preventDefault();
 
             var message = copyMessages[copyCounter % copyMessages.length];
-            message = "Copied! Remaining: " + (10 - copyCounter)
-
-
-
-            if(copyCounter > 7)
-            {
-                message+= "  WARNING: Stop Copying. Approaching limit."
-            }
+            message = "Copied! (" + (9 - copyCounter) + ")"
 
             emailLink.innerHTML = message
             copyCounter++;
 
-            if(copyCounter > maxCopies)
+            if(copyCounter >= maxCopies)
             {
                 emailLink.innerHTML = ""
                 const img = document.createElement('img');
