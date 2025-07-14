@@ -14,7 +14,7 @@ layout: layout.njk
   			</div>
   		</div>
 	    <div class="box blue-box">
-		  <h3>Recent Work</h3>
+		  <h3>Selected Projects</h3>
 		  <div class="table-wrapper">
 			<table>
 				<thead>
@@ -59,14 +59,14 @@ layout: layout.njk
 	    	<ul>
 				<li>TypeScript</li>
 				<li>React</li>
-				<li>Craft CMS</li>
 				<li>Unity</li>
 				<li>C#</li>
 				<li>HTML/CSS/JS</li>
-				<li>Django</li>
-				<li>Lua</li>
-				<li>Python</li>
 				<li>PHP</li>
+				<li>Docker</li>
+				<li>Capacitor</li>
+				<li>Python</li>
+				<li>Craft CMS</li>
 			</ul>
 		</div>
 		<div class="box green-box">

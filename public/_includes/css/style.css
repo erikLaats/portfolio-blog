@@ -60,6 +60,7 @@ h1.lightgray-text {
   margin: 0px;
   overflow: hidden;
   height: 25px;
+  padding-top: 5px;
 }
 
 .flex-header {
@@ -306,7 +307,7 @@ img
   --bright-pink-crayola: #ef476fff;
   --bright-pink-crayola-light: #fcd3dd;
 
-  --sunglow: #FFB60A;
+  --sunglow: #E3A000;
   --sunglow-light: #fff4d6;
 
   --emerald: #5DD435;

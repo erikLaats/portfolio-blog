@@ -7,7 +7,7 @@ function setup() {
             event.preventDefault();
 
             var message = copyMessages[copyCounter % copyMessages.length];
-            message = "Copied! (" + (9 - copyCounter) + ")"
+            message = "Copied!"
 
             emailLink.innerHTML = message
             copyCounter++;
