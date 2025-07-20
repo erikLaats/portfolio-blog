@@ -7,7 +7,7 @@ function setup() {
             event.preventDefault();
 
             var message = copyMessages[copyCounter % copyMessages.length];
-            message = "Copied!"
+            message = "Copied to clipboard!"
 
             emailLink.innerHTML = message
             copyCounter++;
@@ -25,7 +25,7 @@ function setup() {
 }
 
 var copyCounter = 0;
-var maxCopies = 10
+var maxCopies = 5
 
 var copyMessages = [
     'Copy Counter',
